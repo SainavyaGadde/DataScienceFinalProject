@@ -117,6 +117,15 @@ The models will be trained and tested on the dataset under consistent hyperparam
    Compare the models to determine the most suitable algorithm for household energy consumption forecasting.
 
 ---
+## **Final Results**
+Model	R2 Score	Mean Squared Error (MSE)	Root Mean Squared Error (RMSE)	Mean Absolute Error (MAE)
+RNN Model	-0.0426	0.2537	0.5037	0.3842
+LSTM Model	-0.1204	0.2727	0.5223	0.3986
+GRU Model	-0.1393	0.2773	0.5266	0.4023
+Hybrid Sequential Model	-0.2656	0.308	0.555	0.428
+MLP Model	-0.267	0.3084	0.5553	0.4192
+![image](https://github.com/user-attachments/assets/224b18be-bfa4-4ee6-b00a-3762549bbc5f)
+
 
 ## **Significance of the Project**
 This project not only contributes to the field of smart home technologies but also provides a framework for building energy-efficient solutions. By integrating IoT-based systems with machine learning models, homeowners can monitor and optimize their energy usage effectively, reducing costs and supporting a sustainable future.
