@@ -30,6 +30,59 @@ The dataset used for this project is the **Household Power Consumption Dataset**
 - **Timeframe**: Covers several years of data, providing a rich source for training machine learning models.  
 - **Goal**: Utilize this data to predict future energy consumption patterns.
 
+### **Data Information Observations**
+
+The dataset contains information on household energy consumption, with a total of **1,048,575 records** and **9 columns**. Below are the key observations based on the dataset overview and summary statistics:
+
+#### **General Information**
+- **Total Rows**: 1,048,575
+- **Total Columns**: 9
+- **Memory Usage**: Approximately 72.0 MB
+- **Column Types**:
+  - **Numerical**: 7 columns (`float64`)
+  - **Categorical (Object)**: 2 columns (`Date`, `Time`)
+
+The table below summarizes the attributes information available in the dataset
+
+| **Attribute**        | **Description**                                                                                                                       | **Type**            |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------|
+| `Date`               | Date in format `dd/mm/yyyy`.                                                                                                         | String / Date       |
+| `time`               | Time in format `hh:mm:ss`.                                                                                                           | String / Time       |
+| `globalactivepower`  | Household global minute-averaged active power (in kilowatt).                                                                         | Numerical (float)   |
+| `globalreactivepower`| Household global minute-averaged reactive power (in kilowatt).                                                                       | Numerical (float)   |
+| `voltage`            | Minute-averaged voltage (in volt).                                                                                                   | Numerical (float)   |
+| `global_intensity`   | Household global minute-averaged current intensity (in ampere).                                                                      | Numerical (float)   |
+| `submetering1`       | Energy sub-metering No. 1 (in watt-hour of active energy). Corresponds to the **kitchen**, mainly a dishwasher, oven, and microwave. | Numerical (float)   |
+| `submetering2`       | Energy sub-metering No. 2 (in watt-hour of active energy). Corresponds to the **laundry room**, e.g., washing machine, fridge, light. | Numerical (float)   |
+| `submetering3`       | Energy sub-metering No. 3 (in watt-hour of active energy). Corresponds to **electric water-heater** and **air-conditioner**.         | Numerical (float)   |
+
+#### **Missing Data**
+- Approximately **0.3881%** of the rows in the numerical columns have missing values.
+- The columns affected by missing values include:
+  - `Global_active_power`
+  - `Global_reactive_power`
+  - `Voltage`
+  - `Global_intensity`
+  - `Sub_metering_1`
+  - `Sub_metering_2`
+  - `Sub_metering_3`
+
+#### **Summary Statistics of Numerical Columns**
+
+1. **Energy Consumption Distribution**:
+   - The average household global active power (`Global_active_power`) is **1.108 kW**, with a maximum value of **10.67 kW**.
+   - Reactive power (`Global_reactive_power`) is relatively low, averaging **0.118 kW**.
+2. **Voltage Stability**:
+   - Voltage values are relatively stable, with an average of **239.96 volts** and a standard deviation of **3.285 volts**.
+3. **Energy Intensity**:
+   - Household global intensity (`Global_intensity`) has a wide range, from **0.2 amperes** to a peak of **46.4 amperes**.
+4. **Sub-metering Insights**:
+   - Sub-metering values for different areas (kitchen, laundry room, and water heater/air-conditioner) indicate variations in energy usage across household zones, with sub-metering 3 having the highest average consumption (**5.934 watt-hour**).
+
+
+The dataset provides a rich set of features for analyzing and predicting household energy consumption patterns. Addressing missing data and normalizing numerical features will be essential steps in the preprocessing phase to ensure model accuracy and reliability.
+
+
 ---
 
 ## **Models and Approach**
