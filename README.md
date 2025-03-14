@@ -118,7 +118,8 @@ The models will be trained and tested on the dataset under consistent hyperparam
 
 ---
 ## **Final Results**
-![image](https://github.com/user-attachments/assets/224b18be-bfa4-4ee6-b00a-3762549bbc5f)
+![image](https://github.com/user-attachments/assets/f36e34a5-da25-42bc-85e4-0a24c71de07a)
+
 
 
 ## **Significance of the Project**
