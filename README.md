@@ -121,7 +121,8 @@ The models will be trained and tested on the dataset under consistent hyperparam
 ![image](https://github.com/user-attachments/assets/5c74e8cd-2b17-4c38-870d-45e7675f93de)
 
 ## The best performance based on hyperparameter tuning for 4 models (LSTM, RNN, GRU, MLP)
-![image](https://github.com/user-attachments/assets/f05941cb-b5fe-4516-ac24-4ce1b308ba19)
+![image](https://github.com/user-attachments/assets/a6da3e3c-48e0-4094-b4de-93628cee949f)
+
 
 ## **Significance of the Project**
 This project not only contributes to the field of smart home technologies but also provides a framework for building energy-efficient solutions. By integrating IoT-based systems with machine learning models, homeowners can monitor and optimize their energy usage effectively, reducing costs and supporting a sustainable future.
